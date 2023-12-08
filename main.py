@@ -5,6 +5,8 @@ import numpy as np
 class_list = {'0': 'Male', '1': 'Female'}
 
 st.title('Name Prediction')
+input = open('ec_vinames.pkl', 'rb')
+encoder = pkl.load(input)
 
 input = open('ec_vinames.pkl', 'rb')
 model = pkl.load(input)
