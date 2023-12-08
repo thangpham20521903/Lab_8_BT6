@@ -2,7 +2,7 @@ import streamlit as st
 import pickle as pkl
 import numpy as np
 
-class_list = {'0': 'Male', '1': 'Female'}
+class_list = {'1': 'Male', '0': 'Female'}
 
 st.title('Name Prediction')
 input = open('ec_vinames.pkl', 'rb')
