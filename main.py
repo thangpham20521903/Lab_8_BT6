@@ -8,7 +8,7 @@ st.title('Name Prediction')
 input = open('ec_vinames.pkl', 'rb')
 encoder = pkl.load(input)
 
-input = open('ec_vinames.pkl', 'rb')
+input = open('lrc_vinames.pkl', 'rb')
 model = pkl.load(input)
 
 st.header('Write Name')
